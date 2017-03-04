@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/am_edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/am_btn_makeLogoQR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:text="生成logo二维码"/>
+
+        <Button
+            android:id="@+id/am_btn_makeUnLogoQR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="生成非logo二维码"/>
+        <ImageView
+            android:id="@+id/am_iv_result"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"/>
+        <Button
+            android:id="@+id/flashNightControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开/关闭闪光灯"/>
+    </LinearLayout>
+
+
+</LinearLayout>
